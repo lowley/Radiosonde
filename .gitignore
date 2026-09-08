@@ -1,0 +1,36 @@
+# Compiled class file
+*.class
+
+# Logs
+*.log
+
+# Kotlin / Gradle
+.kotlin/
+.gradle/
+/build/
+app/build/
+
+# Android Studio
+*.iml
+.idea/
+/local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+.DS_Store
+
+# Archives / package files
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
