@@ -11,11 +11,11 @@ val gitCommit = providers.exec {
     commandLine("git", "rev-parse", "--short=8", "HEAD")
     isIgnoreExitValue = true
 }.standardOutput.asText.get().trim().ifBlank { "unknown" }
-val buildDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"))
+val buildDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm"))
 
 android {
     namespace = "lorry.radiosonde"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "lorry.radiosonde"
