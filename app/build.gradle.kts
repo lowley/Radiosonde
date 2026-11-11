@@ -15,7 +15,7 @@ val buildDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-
 
 android {
     namespace = "lorry.radiosonde"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "lorry.radiosonde"
