@@ -1,4 +1,4 @@
-package lorry.radiosonde.ui.theme
+package lorry.lebonfilm.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

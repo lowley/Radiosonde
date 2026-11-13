@@ -14,7 +14,7 @@
         android:label="Radiosonde"
         android:roundIcon="@drawable/satellite"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Radiosonde"
+        android:theme="@style/Theme.LeBonFilm"
         android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"

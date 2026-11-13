@@ -14,7 +14,7 @@ val gitCommit = providers.exec {
 val buildDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm"))
 
 android {
-    namespace = "lorry.radiosonde"
+    namespace = "lorry.lebonfilm"
     compileSdk = 37
 
     defaultConfig {

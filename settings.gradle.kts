@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RadioSonde"
+rootProject.name = "LeBonFilm"
 include(":app")
